@@ -226,6 +226,8 @@ CONFIGURE_ARGS:= \
 	-skip webglplugin \
 	-skip winextras \
 	-skip x11extras \
+	-no-icu \
+	-qt-doubleconversion \
 	-v
 
 define Build/Prepare
